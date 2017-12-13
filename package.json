@@ -1,0 +1,43 @@
+{
+  "name": "christmashat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./webpack-dev-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChristineNJU/ChristmasHat.git"
+  },
+  "author": "christine",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^1.4.6",
+    "vue": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "postcss-loader": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "html-webpack-plugin": "^2.30.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ChristineNJU/ChristmasHat/issues"
+  },
+  "homepage": "https://github.com/ChristineNJU/ChristmasHat#readme"
+}
